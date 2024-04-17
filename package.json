@@ -1,0 +1,32 @@
+{
+  "name": "hanzalas-word-counter",
+  "version": "1.0.0",
+  "description": "A simple word counter.",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "hanzalas-word-counter": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-hanzala/hanzalas-word-counter.git"
+  },
+  "author": "dev-hanzala",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dev-hanzala/hanzalas-word-counter/issues"
+  },
+  "homepage": "https://github.com/dev-hanzala/hanzalas-word-counter#readme",
+  "dependencies": {
+    "inquirer": "^9.2.19"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
